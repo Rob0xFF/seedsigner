@@ -38,7 +38,7 @@ class SettingsMenuView(View):
                     break
 
         if self.visibility == SettingsConstants.VISIBILITY__GENERAL:
-            title = "Settings"
+            title = "Seings"
 
             # Set up the next nested level of menuing
             button_data.append(("Advanced", None, None, None, SeedSignerIconConstants.CHEVRON_RIGHT))
